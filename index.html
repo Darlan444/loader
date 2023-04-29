@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loader</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/carregando.png" type="image/x-icon">
+    <script src="script.js"></script>
+</head>
+
+<body class="not-loaded">
+
+    <div class="container-loader" id="loader">
+        <div class="spinner">
+
+            <div class="dot-spinner"></div>
+            <div class="dot-spinner"></div>
+            <div class="dot-spinner"></div>
+            <div class="dot-spinner"></div>
+            <div class="dot-spinner"></div>
+            <div class="dot-spinner"></div>
+            <div class="dot-spinner"></div>
+            <div class="dot-spinner"></div>
+
+        </div>
+    </div>
+
+    <div class="center">
+        <img onload="loaded()" src="img/4k.jpeg" alt="">
+    </div>
+</body>
+
+</html>
